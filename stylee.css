@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.parent{
+    width: 100%;
+}
+.navbar{
+    padding: 0px 60px;
+    width: 100%;
+    background-color: rgb(71, 65, 65);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    position: fixed;
+}
+.navbar div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.navbar .navleft img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 13px;
+    /* height: 100vh; */
+    padding: 5px 20px;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    width:fit-content ;
+    color: aliceblue;
+}
+.navbar a:hover{
+background-color: rgb(135, 135, 135);
+}
+.navbar .navrigth img{
+    width: 140px;
+    height: 60px;
+    padding:5px ;
+}
+.navbar .navrigth a i{
+margin: 0px 5px;
+}
+.navbar .navrigth a i.fa-bars{
+    font-size: 20px;
+}
+main{
+    height: 500px;
+    background-image:url(download.jpeg) ;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+main h3,.ss h3{
+    font-size:35px ;
+    color: rgb(42, 130, 157);
+}
+main p{
+font-size: 20px;
+margin: 20px 0px;
+color: rgb(21, 22, 22);
+}
+main .search{
+    position: relative;
+}
+main input{
+width: 650px;
+height: 60px;
+padding: 5px 15px;
+border: none;
+outline: none;
+font-size: 20px;
+}
+main button{
+    width: 80px;
+    height: 80%;
+    border: none;
+    background-color: aquamarine;
+    font-size: 13px;
+    color: azure;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    transform:translate(-50% -50%) ;
+}
+.ss{
+    min-height:100vh ;
+    padding: 50px;
+    width: 100%;
+}
+.ss h3{
+    text-align: center;
+}
+.ss .pp{
+margin-top: 50px;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+}
+.ss .pp .ser{
+    width: 23%;
+    height: 200px;
+    background-image: url(images.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size:100% 100% ;
+    margin: 20px auto;
+    position: relative;
+}
+.ss .pp .ser::after{
+width: 100%;
+height: 100%;
+background-color: rgb(127, 133, 128);
+opacity: .4;
+content: "";
+position: absolute;
+
+}
+.all{
+
+    width: 100%;
+    padding: 50px 70px 100px;
+    background-color: beige;
+  
+}
+.all .three{
+    width: 100%;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+}
+.all .three a{
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 15px;
+    border: 1px solid greenyellow;
+    color: rgb(30, 31, 30);
+transition: .1s linear;
+}
+.all .three a:hover{
+    background-color: chartreuse;
+    color: aliceblue;
+}
+.all .three p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.all .items{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.all .items .item{
+    width: 23%;
+    margin: 20px auto;
+    height: 330px;
+}
+.all .items .item img{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 80%;
+    cursor: pointer;
+
+}
+.all .items .item a{
+   /* margin-top: 15px !important; */
+    text-decoration: none;
+    color: rgb(129, 123, 123);
+    font-size: 18px;
+   
+}
+.m-8 p{
+    background-color: brown;
+}
